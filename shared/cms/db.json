@@ -1,0 +1,22 @@
+{
+  "scientists": [
+    {
+      "name": "Isaac Newton",
+      "activeYears": "1642-1727",
+      "countryOfOrigin": "England",
+      "biggestAchievement": "Developed the laws of motion and universal gravitation"
+    },
+    {
+      "name": "Albert Einstein",
+      "activeYears": "1879-1955",
+      "countryOfOrigin": "Germany",
+      "biggestAchievement": "Developed the theory of general relativity"
+    },
+    {
+      "name": "Marie Curie",
+      "activeYears": "1867-1934",
+      "countryOfOrigin": "Poland",
+      "biggestAchievement": "Pioneered research in radioactivity and discovered two new elements, polonium and radium"
+    }
+  ]
+}
