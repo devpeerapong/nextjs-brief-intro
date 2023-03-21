@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:01": "pnpm --filter \"./01-spa-ssg-isr-ssr/*\" run build",
+    "start:01": "pnpm run build:01 && pnpm --filter \"./01-spa-ssg-isr-ssr/*\" run start"
   },
   "keywords": [],
   "author": "",

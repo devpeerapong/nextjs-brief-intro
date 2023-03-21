@@ -5,9 +5,8 @@ importers:
   .:
     specifiers: {}
 
-  01-ssg-isr-ssr/ssg:
+  01-spa-ssg-isr-ssr/isr:
     specifiers:
-      '@brief-next/sdk': workspace:*
       '@types/node': 18.15.1
       '@types/react': 18.0.28
       '@types/react-dom': 18.0.11
@@ -19,11 +18,11 @@ importers:
       postcss: ^8.4.21
       react: 18.2.0
       react-dom: 18.2.0
+      sdk: workspace:*
       serve: ^14.2.0
       tailwindcss: ^3.2.7
       typescript: 4.9.5
     dependencies:
-      '@brief-next/sdk': link:../../shared/sdk
       '@types/node': 18.15.1
       '@types/react': 18.0.28
       '@types/react-dom': 18.0.11
@@ -33,6 +32,7 @@ importers:
       next: 13.2.4_biqbaboplfbrettd7655fr4n2y
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
+      sdk: link:../../shared/sdk
       serve: 14.2.0
       typescript: 4.9.5
     devDependencies:
@@ -40,7 +40,143 @@ importers:
       postcss: 8.4.21
       tailwindcss: 3.2.7_postcss@8.4.21
 
-  01-ssg-isr-ssr/ssg-1:
+  01-spa-ssg-isr-ssr/spa:
+    specifiers:
+      '@types/node': 18.15.1
+      '@types/react': 18.0.28
+      '@types/react-dom': 18.0.11
+      autoprefixer: ^10.4.14
+      daisyui: ^2.51.3
+      eslint: 8.36.0
+      eslint-config-next: 13.2.4
+      next: 13.2.4
+      postcss: ^8.4.21
+      react: 18.2.0
+      react-dom: 18.2.0
+      sdk: workspace:*
+      serve: ^14.2.0
+      tailwindcss: ^3.2.7
+      typescript: 4.9.5
+    dependencies:
+      '@types/node': 18.15.1
+      '@types/react': 18.0.28
+      '@types/react-dom': 18.0.11
+      daisyui: 2.51.3_j7yt3jd32cwenjqavrrga47yr4
+      eslint: 8.36.0
+      eslint-config-next: 13.2.4_vgl77cfdswitgr47lm5swmv43m
+      next: 13.2.4_biqbaboplfbrettd7655fr4n2y
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+      sdk: link:../../shared/sdk
+      serve: 14.2.0
+      typescript: 4.9.5
+    devDependencies:
+      autoprefixer: 10.4.14_postcss@8.4.21
+      postcss: 8.4.21
+      tailwindcss: 3.2.7_postcss@8.4.21
+
+  01-spa-ssg-isr-ssr/ssg:
+    specifiers:
+      '@types/node': 18.15.1
+      '@types/react': 18.0.28
+      '@types/react-dom': 18.0.11
+      autoprefixer: ^10.4.14
+      daisyui: ^2.51.3
+      eslint: 8.36.0
+      eslint-config-next: 13.2.4
+      next: 13.2.4
+      postcss: ^8.4.21
+      react: 18.2.0
+      react-dom: 18.2.0
+      sdk: workspace:*
+      serve: ^14.2.0
+      tailwindcss: ^3.2.7
+      typescript: 4.9.5
+    dependencies:
+      '@types/node': 18.15.1
+      '@types/react': 18.0.28
+      '@types/react-dom': 18.0.11
+      daisyui: 2.51.3_j7yt3jd32cwenjqavrrga47yr4
+      eslint: 8.36.0
+      eslint-config-next: 13.2.4_vgl77cfdswitgr47lm5swmv43m
+      next: 13.2.4_biqbaboplfbrettd7655fr4n2y
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+      sdk: link:../../shared/sdk
+      serve: 14.2.0
+      typescript: 4.9.5
+    devDependencies:
+      autoprefixer: 10.4.14_postcss@8.4.21
+      postcss: 8.4.21
+      tailwindcss: 3.2.7_postcss@8.4.21
+
+  01-spa-ssg-isr-ssr/ssr:
+    specifiers:
+      '@types/node': 18.15.1
+      '@types/react': 18.0.28
+      '@types/react-dom': 18.0.11
+      autoprefixer: ^10.4.14
+      daisyui: ^2.51.3
+      eslint: 8.36.0
+      eslint-config-next: 13.2.4
+      next: 13.2.4
+      postcss: ^8.4.21
+      react: 18.2.0
+      react-dom: 18.2.0
+      sdk: workspace:*
+      serve: ^14.2.0
+      tailwindcss: ^3.2.7
+      typescript: 4.9.5
+    dependencies:
+      '@types/node': 18.15.1
+      '@types/react': 18.0.28
+      '@types/react-dom': 18.0.11
+      daisyui: 2.51.3_j7yt3jd32cwenjqavrrga47yr4
+      eslint: 8.36.0
+      eslint-config-next: 13.2.4_vgl77cfdswitgr47lm5swmv43m
+      next: 13.2.4_biqbaboplfbrettd7655fr4n2y
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+      sdk: link:../../shared/sdk
+      serve: 14.2.0
+      typescript: 4.9.5
+    devDependencies:
+      autoprefixer: 10.4.14_postcss@8.4.21
+      postcss: 8.4.21
+      tailwindcss: 3.2.7_postcss@8.4.21
+
+  02-pages-and-app/app-folder:
+    specifiers:
+      '@types/node': 18.15.1
+      '@types/react': 18.0.28
+      '@types/react-dom': 18.0.11
+      autoprefixer: ^10.4.14
+      eslint: 8.36.0
+      eslint-config-next: 13.2.4
+      next: 13.2.4
+      postcss: ^8.4.21
+      react: 18.2.0
+      react-dom: 18.2.0
+      sdk: workspace:*
+      tailwindcss: ^3.2.7
+      typescript: 4.9.5
+    dependencies:
+      '@types/node': 18.15.1
+      '@types/react': 18.0.28
+      '@types/react-dom': 18.0.11
+      eslint: 8.36.0
+      eslint-config-next: 13.2.4_vgl77cfdswitgr47lm5swmv43m
+      next: 13.2.4_biqbaboplfbrettd7655fr4n2y
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+      sdk: link:../../shared/sdk
+      typescript: 4.9.5
+    devDependencies:
+      autoprefixer: 10.4.14_postcss@8.4.21
+      postcss: 8.4.21
+      tailwindcss: 3.2.7_postcss@8.4.21
+
+  02-pages-and-app/pages-folder:
     specifiers:
       '@types/node': 18.15.1
       '@types/react': 18.0.28
@@ -59,7 +195,6 @@ importers:
       '@types/node': 18.15.1
       '@types/react': 18.0.28
       '@types/react-dom': 18.0.11
-      daisyui: 2.51.3_j7yt3jd32cwenjqavrrga47yr4
       eslint: 8.36.0
       eslint-config-next: 13.2.4_vgl77cfdswitgr47lm5swmv43m
       next: 13.2.4_biqbaboplfbrettd7655fr4n2y
@@ -68,6 +203,7 @@ importers:
       typescript: 4.9.5
     devDependencies:
       autoprefixer: 10.4.14_postcss@8.4.21
+      daisyui: 2.51.3_j7yt3jd32cwenjqavrrga47yr4
       postcss: 8.4.21
       tailwindcss: 3.2.7_postcss@8.4.21
 
@@ -810,7 +946,6 @@ packages:
     engines: {node: '>=7.0.0'}
     dependencies:
       color-name: 1.1.4
-    dev: false
 
   /color-name/1.1.4:
     resolution: {integrity: sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==}
@@ -820,7 +955,6 @@ packages:
     dependencies:
       color-name: 1.1.4
       simple-swizzle: 0.2.2
-    dev: false
 
   /color/4.2.3:
     resolution: {integrity: sha512-1rXeuUUiGGrykh+CeBdu5Ie7OJwinCgQY0bc7GCRxy5xVHy+moaqkpL/jqQq0MtQOeYcrqEz4abc5f0KtU7W4A==}
@@ -828,7 +962,6 @@ packages:
     dependencies:
       color-convert: 2.0.1
       color-string: 1.9.1
-    dev: false
 
   /compressible/2.0.18:
     resolution: {integrity: sha512-AF3r7P5dWxL8MxyITRMlORQNaOA2IkAFaTr4k7BUumjPtRpGDTZpl0Pb1XCO6JeDCBdp126Cgs9sMxqSjgYyRg==}
@@ -908,7 +1041,6 @@ packages:
     dependencies:
       cssesc: 3.0.0
       fastparse: 1.1.2
-    dev: false
 
   /cssesc/3.0.0:
     resolution: {integrity: sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg==}
@@ -933,7 +1065,6 @@ packages:
       tailwindcss: 3.2.7_postcss@8.4.21
     transitivePeerDependencies:
       - ts-node
-    dev: false
 
   /damerau-levenshtein/1.0.8:
     resolution: {integrity: sha512-sdQSFB7+llfUcQHUQO3+B8ERRj0Oa4w9POWMI/puGtuf7gFywGmkaLCElnudfTiKZV+NvHqL0ifzdrI8Ro7ESA==}
@@ -1731,7 +1862,6 @@ packages:
 
   /fastparse/1.1.2:
     resolution: {integrity: sha512-483XLLxTVIwWK3QTrMGRqUfUpoOs/0hbQrl2oz4J0pAcm3A3bu84wxTFqGqkJzewCLdME38xJLJAxBABfQT8sQ==}
-    dev: false
 
   /fastq/1.15.0:
     resolution: {integrity: sha512-wBrocU2LCXXa+lWBt8RoIRD89Fi8OdABODa/kEnyeyjS5aZO5/GNvI5sEINADqP/h8M29UHTHUb53sUu5Ihqdw==}
@@ -2098,7 +2228,6 @@ packages:
 
   /is-arrayish/0.3.2:
     resolution: {integrity: sha512-eVRqCvVlZbuw3GrM63ovNSNAeA1K16kaR/LRY/92w0zxQ5/1YzwblUX652i4Xs9RwAGjW9d9y6X88t8OaAJfWQ==}
-    dev: false
 
   /is-bigint/1.0.4:
     resolution: {integrity: sha512-zB9CruMamjym81i2JZ3UMn54PKGsQzsJeo6xvN3HJJ4CAsQNB6iRutp2To77OfCNuoxspsIhzaPoO1zyCEhFOg==}
@@ -3314,7 +3443,6 @@ packages:
     resolution: {integrity: sha512-JA//kQgZtbuY83m+xT+tXJkmJncGMTFT+C+g2h2R9uxkYIrE2yy9sgmcLhCnw57/WSD+Eh3J97FPEDFnbXnDUg==}
     dependencies:
       is-arrayish: 0.3.2
-    dev: false
 
   /slash/3.0.0:
     resolution: {integrity: sha512-g9Q1haeby36OSStwb4ntCGGGaKsaVSjQ68fBxoQcutl5fS1vuY18H3wSt3jFyFtrkx+Kz0V1G85A4MyAdDMi2Q==}

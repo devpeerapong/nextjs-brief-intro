@@ -3,7 +3,7 @@
     {
       "name": "Isaac Newton",
       "activeYears": "1642-1727",
-      "countryOfOrigin": "England",
+      "countryOfOrigin": "United Kingdom",
       "biggestAchievement": "Developed the laws of motion and universal gravitation"
     },
     {
@@ -17,6 +17,91 @@
       "activeYears": "1867-1934",
       "countryOfOrigin": "Poland",
       "biggestAchievement": "Pioneered research in radioactivity and discovered two new elements, polonium and radium"
+    }
+  ],
+  "works": {
+    "Isaac Newton": [
+      {
+        "title": "Philosophiæ Naturalis Principia Mathematica",
+        "description": "A mathematical treatise that lays out the principles of classical mechanics and is considered one of the most important works in the history of science.",
+        "year": 1687
+      },
+      {
+        "title": "Opticks",
+        "description": "A book about the nature of light and color, where Newton explores the properties of light and how it interacts with matter.",
+        "year": 1704
+      },
+      {
+        "title": "Method of Fluxions",
+        "description": "A mathematical treatise on calculus that contains the first published account of the calculus of infinitesimals.",
+        "year": 1671
+      }
+    ],
+    "Albert Einstein": [
+      {
+        "title": "Special Theory of Relativity",
+        "description": "A scientific theory that describes the relationship between space and time, and the behavior of objects in motion.",
+        "year": 1905
+      },
+      {
+        "title": "General Theory of Relativity",
+        "description": "A scientific theory that extends the special theory of relativity to include gravity and the curvature of spacetime.",
+        "year": 1915
+      },
+      {
+        "title": "Einstein's Miraculous Year",
+        "description": "A book that discusses Einstein's contributions to physics during the year 1905, including his papers on special relativity and the photoelectric effect.",
+        "year": 1998
+      }
+    ],
+    "Marie Curie": [
+      {
+        "title": "Traité de Radioactivité",
+        "description": "A book that describes the discovery of radioactivity and the properties of radioactive materials.",
+        "year": 1910
+      },
+      {
+        "title": "The Radium Institute",
+        "description": "A research institute that Curie established in Paris to study radioactivity and train researchers in the field.",
+        "year": 1914
+      },
+      {
+        "title": "Discovery of Radium and Polonium",
+        "description": "A paper that describes Curie's discovery of the elements radium and polonium, and her work to isolate them from pitchblende ore.",
+        "year": 1898
+      }
+    ]
+  },
+  "invoices": [
+    {
+      "id": "0",
+      "customerName": "John Doe",
+      "amount": 2000,
+      "dueDate": "2023-04-01T00:00:00.000Z",
+      "issuedDate": "2023-03-16T00:00:00.000Z",
+      "lineItems": [{ "description": "Consulting Services", "price": 2000 }]
+    },
+    {
+      "id": "1",
+      "customerName": "Jane Smith",
+      "amount": 2500,
+      "dueDate": "2023-04-15T00:00:00.000Z",
+      "issuedDate": "2023-03-16T00:00:00.000Z",
+      "lineItems": [{ "description": "Graphic Design", "price": 2500 }]
+    },
+    {
+      "id": "2",
+      "customerName": "Bob Johnson",
+      "amount": 11500,
+      "dueDate": "2023-05-01T00:00:00.000Z",
+      "issuedDate": "2023-03-16T00:00:00.000Z",
+      "lineItems": [
+        {
+          "description": "Website Development",
+          "price": 9500
+        },
+        { "description": "Graphic Design", "price": 2000 }
+      ]
     }
   ]
 }

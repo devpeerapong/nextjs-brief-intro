@@ -5,8 +5,8 @@ import Link from "next/link";
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <div>
-      <div className="navbar bg-base-100">
-        <Link href="/" className="btn btn-ghost normal-case text-xl">Home</Link>
+      <div className="navbar bg-base-100 text-center">
+        <Link href="/" className="btn btn-ghost normal-case text-xl">Static Site Generation (SSG)</Link>
       </div>
       <Component {...pageProps} />
     </div>

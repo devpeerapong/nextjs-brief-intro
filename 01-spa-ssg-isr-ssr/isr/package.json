@@ -1,13 +1,12 @@
 {
-  "name": "ssg",
+  "name": "isr",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "serve": "next build && next export && serve out"
+    "start": "next start --port 3002",
+    "lint": "next lint"
   },
   "dependencies": {
     "@types/node": "18.15.1",
@@ -19,7 +18,7 @@
     "next": "13.2.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "@brief-next/sdk": "workspace:*",
+    "sdk": "workspace:*",
     "serve": "^14.2.0",
     "typescript": "4.9.5"
   },
